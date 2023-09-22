@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test your knowledge.</title>
+</head>
+<body>
+  <!-- Head of my form -->
+  <header>
+    <h1>Test your knowledge in Chinese</h1>
+  </header>
+  <!-- Link to other page on learning Chinese -->
+  <nav>
+    <a href="chinese-examples.html" target="_blank">Refresh your Chinese knowledge?</a>
+    <a href="index.html" target="_blank"> Go back to homepage </a>
+  </nav>
+  <!-- This block contains my form -->
+  <section>
+    <form id="knowledge-test">
+      <!-- First input type a text type. Asks for history of Chinese. -->
+      <label for="Chinese-history" name="Chinese-written-down">
+      What is the name of an early form of Chinese?</label>
+      <input type="text" id="Chinese-history" name="history-ans" /><br />
+      <!-- Second input type a number type. Asks for the number of characters in Chinese -->
+      <label for="char-num" name="Number-of-characters">
+      What is the number of characters in the Chinese language?</label>
+      <input type="number" id="char-num" name="character-number" min="5000" max="10000" />
+      <br />
+      <!-- A fieldset containing my radio buttons -->
+      <fieldset form="knowledge-test">
+        <legend>What does the phrase <b>再见</b> mean?</legend> <!--Bold-->
+        <!-- Radio button for meaning of chinese phrase and third input type -->
+        <label for="hello" name="hello"> Hello </label>
+        <input type="radio" id="hello" value="hello" name="zj-meaning" />
+        <label for="goodbye" name="goodbye"> Goodbye </label>
+        <input type="radio" id="goodbye" value="goodbye" name="zj-meaning" />
+        <label for="thank-you" name="thank-you"> Thank you </label>
+        <input type="radio" id="thank-you" value="thank-you" name="zj-meaning" />
+      </fieldset>
+      <!-- Researched input type. A month type of input.-->
+      <label for="start-date" name="start-date">When did I start learning Chinese?</label>
+      <input type="month" id="start-date" name="date-input" />
+      <br />
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+      <!-- Reset button -->
+      <input type="reset" value="Reset your form" />
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>Website made by: Chizara</p>
+  </footer>
+</body>
+</html>
